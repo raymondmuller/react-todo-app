@@ -1,0 +1,16 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "authors": [
+    "Raymond Muller <raymond.muller.1989@gmail.com>"
+  ],
+  "description": "A simple Todo App in ReactJS",
+  "keywords": [
+    "react",
+    "todo",
+    "doist"
+  ],
+  "dependencies": {
+    "react": "~0.13.1"
+  }
+}
