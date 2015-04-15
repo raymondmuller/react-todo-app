@@ -1,4 +1,5 @@
 var TodoInput = React.createClass({
+	displayName: "TodoInput",
 	getInitialState: function() {
 		return {todo: ''};
 	},

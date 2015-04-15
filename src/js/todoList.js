@@ -1,11 +1,10 @@
 var TodoList = React.createClass({
-
 	render: function() {
 
-		var newItem = function(content, index) {
-			console.log("New content " + content);
+		var newItem = function(item, index) {
+			console.log("New content " + item.content);
 			return (
-				<Todo>{content}</Todo>
+				<Todo>{item}</Todo>
 			);
 		}
 		return (

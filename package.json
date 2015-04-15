@@ -10,6 +10,16 @@
     "todo",
     "doist"
   ],
+  "scripts": {
+    "test": "node node_modules/jest-cli/bin/jest.js"
+  },
+  "jest": {
+    "scriptPreprocessor": "./preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react/addons",
+      "react-tools"
+    ]
+  },
   "dependencies": {
     "browserify": "^9.0.8",
     "gulp-concat": "^2.5.2",
@@ -22,11 +32,8 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-jest": "^0.4.0",
-    "gulp-karma": "0.0.4",
-    "karma": "^0.12.31",
-    "karma-chrome-launcher": "^0.1.7",
-    "karma-coverage": "^0.2.7",
-    "karma-react-jsx-preprocessor": "^0.1.1",
+    "jest": "^0.1.39",
+    "jest-cli": "^0.4.0",
     "react-tools": "^0.13.1"
   }
 }
