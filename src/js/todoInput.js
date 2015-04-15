@@ -4,10 +4,10 @@ var TodoInput = React.createClass({
 		return {todo: ''};
 	},
 	addToList: function(e){
-		console.log("adding to list");
 		e.preventDefault();
-		this.props.onAdd(this.state.todo);
-		this.setState({todo: ''});
+		if(this.state.todo !=- "") {
+			this.props.onAdd({content: this.state.todo});
+			this.setState({todo: ''}); }
 		React.findDOMNode(this.refs.todo).focus();
 		return;
 	},
