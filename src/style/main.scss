@@ -86,6 +86,11 @@ input {
 			&:nth-child(2n) {
 				background: $todo-secondary-color;
 			}
+
+			&:hover {
+				background: $button-color;
+				cursor: pointer;
+			}
 		}
 	}
 }
