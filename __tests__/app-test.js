@@ -3,12 +3,12 @@ global.TestUtils = React.addons.TestUtils;
 
 var Component, App;
 
-jest.dontMock('../src/js/app');
+jest.dontMock('../src/components/app');
 
 describe('TodoInput', function() {
 	
   beforeEach(function() {
-  	App = require('../src/js/app');
+  	App = require('../src/components/app');
     Component = TestUtils.renderIntoDocument(<App></App>);
   });
 
