@@ -17,10 +17,10 @@ var App = React.createClass({
 	render: function() {
 		return (
 		<div>
-		<TodoInput onAdd={this.addToList}></TodoInput>
+			<TodoInput onAdd={this.addToList}></TodoInput>
 		<div>
 		<TodoList data={this.state.todos}></TodoList>
 		</div></div>
 		)
 	}
-})
+});

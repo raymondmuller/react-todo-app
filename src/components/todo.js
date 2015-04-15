@@ -13,4 +13,4 @@ var Todo = React.createClass({
 			</li>	
 		)
 	}
-})
+});
