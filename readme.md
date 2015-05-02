@@ -5,7 +5,7 @@ I know it is not the most awesome app you have ever seen, but it was a cool way 
 
 ## Demo
 
-[a DEMO](http://raymondmuller.github.io/)
+[a DEMO](http://raymondmuller.github.io/react-todo)
 
 ## Installation
 
